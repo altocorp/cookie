@@ -13,3 +13,6 @@ console.log(sessionStorage.getItem('breakfast'));
 // sessionStorage.clear();
 
 document.cookie = "hello=true";
+document.cookie = "hello2=true2";
+
+console.log(document.cookie);
